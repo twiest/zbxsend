@@ -1,0 +1,11 @@
+Source: zbxsend
+Maintainer: Sergey Kirillov
+Section: misc
+Build-Depends: debhelper (>= 8.0.0)
+Priority: optional
+Standards-Version: 0.1.6
+
+Package: zbxsend
+Description: Module used to send metrics to Zabbix.
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>=2.6)
