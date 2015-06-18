@@ -1,6 +1,6 @@
 Summary:       Python library for Zabbix Sender
 Name:          python-zbxsend
-Version:       0.1.6.0
+Version:       0.1.6.1
 Release:       1%{?dist}
 License:       UNKNOWN
 URL:           https://github.com/pistolero/zbxsend
@@ -27,3 +27,6 @@ cp -p zbxsend.py %{buildroot}%{python_sitelib}
 %{python_sitelib}
 
 %changelog
+* Thu Jun 18 2015 Thomas Wiest <twiest@redhat.com> 0.1.6.1-1
+- new package built with tito
+
