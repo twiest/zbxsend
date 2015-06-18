@@ -24,7 +24,7 @@ cp -p zbxsend.py %{buildroot}%{python_sitelib}
 
 
 %files
-%{python_sitelib}
+%{python_sitelib}/zbxsend.py
 
 %changelog
 * Thu Jun 18 2015 Thomas Wiest <twiest@redhat.com> 0.1.6.2-1
