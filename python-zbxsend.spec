@@ -1,8 +1,8 @@
-Summary:       Python library for Zabbix Sender
+Summary:       Python module used to send metrics to Zabbix.
 Name:          python-zbxsend
 Version:       0.1.6.1
 Release:       1%{?dist}
-License:       UNKNOWN
+License:       BSD
 URL:           https://github.com/pistolero/zbxsend
 Source0:       %{name}-%{version}.tar.gz
 Requires:      python2
@@ -10,7 +10,7 @@ BuildRequires: python2-devel
 BuildArch:     noarch
 
 %description
-Python library for sending data to the Zabbix Trapper.
+Python module used to send metrics to Zabbix.
 
 %prep
 %setup -q
